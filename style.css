@@ -3,21 +3,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
     font-family: "Rubik", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
     margin: 0;
-}
-
-h1 {
-    color: #1d4221;
-}
-
-p {
-    color: #1d4221;
-    font-weight: bold; 
 }
 
 button {
