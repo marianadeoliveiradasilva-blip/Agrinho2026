@@ -1,33 +1,16 @@
-body {
-    background-image: url('trabalhador no campo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin: 0;
-    min-height: 100vh;
-    color: white;
+body{
+    background-color: #1d4221;
+    color:white;
+    font-family: "Anton", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin:0;
 }
 
-h1 {
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    font-weight: normal;
-    margin-top: 50px;
-}
-
-p {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
-}
-
-button {
-    font-family: 'Anton', sans-serif;
+button{
     background-color: #64A712;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
+    color:white;
+    font-family: "Anton", sans-serif;
 }
