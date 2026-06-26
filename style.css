@@ -1,7 +1,7 @@
 body{
     background-color: #1d4221;
     color:white;
-    font-family: "Anton", sans-serif;
+   font-family: "Rubik", sans-serif;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -12,5 +12,5 @@ body{
 button{
     background-color: #64A712;
     color:white;
-    font-family: "Anton", sans-serif;
+     font-family: "Rubik", sans-serif;
 }
