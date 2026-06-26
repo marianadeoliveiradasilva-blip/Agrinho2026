@@ -1,15 +1,23 @@
-body {
+bbody {
     background-image: url('trabalhador no campo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: rgb(13, 75, 11);
     font-family: "Rubik", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
     margin: 0;
+}
+
+h1 {
+    color: #1d4221;
+}
+
+p {
+    color: #1d4221;
+    font-weight: bold; /* Adicionei um negrito para destacar melhor o texto em cima da foto! */
 }
 
 button {
