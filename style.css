@@ -3,8 +3,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
     font-family: "Rubik", sans-serif;
+    color: #1d4221;
     display: flex;
     justify-content: center;
     align-items: center;
