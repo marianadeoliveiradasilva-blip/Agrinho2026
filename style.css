@@ -1,7 +1,9 @@
-background-image:url('trabalhador no campo.png');
-background-size:cover;
-background-position:cover;
-background-repeat:no-repeat;
-
-text-aling: center;
-margin-top: 50px;
+body {
+    background-image: url('trabalhador no campo.png');
+    background-size: cover;
+    background-position: center; /* Aqui estava 'cover', o correto para posição é 'center' */
+    background-repeat: no-repeat;
+    
+    text-align: center; /* Aqui estava escrito 'aling', o correto é 'align' */
+    margin-top: 50px;
+}
