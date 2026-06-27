@@ -22,10 +22,25 @@ button {
     cursor: pointer;
 }
 
-.passo{
+.passo {
     display: none;
 }
 
-.passo.ativo{
-    display:block;
+.passo.ativo {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.alinhamento-lista {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.alinhamento-lista img {
+    width: 350px;
+    border-radius: 10px;
 }
