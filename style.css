@@ -44,5 +44,8 @@ h2 {
 
 .alinhamento-lista img {
     width: 350px;
+    height: 230px;         
+    object-fit: cover;     
+    object-position: center; 
     border-radius: 10px;
 }
