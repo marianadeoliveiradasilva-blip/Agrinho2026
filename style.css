@@ -42,10 +42,12 @@ h2 {
     gap: 30px;
 }
 
-.alinhamento-lista img {
-    width: 350px;
-    height: 230px;         
-    object-fit: cover;     
-    object-position: center; 
-    border-radius: 10px;
+body.dark-mode {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('trabalhador no campo.png');
+    color: #e0ebe0;
+}
+
+body.dark-mode button {
+    background-color: #83d41a;
+    color: #111;
 }
