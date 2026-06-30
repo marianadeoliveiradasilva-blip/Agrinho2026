@@ -1,3 +1,18 @@
+const btnEnviarNome = document.getElementById('btn-enviar-nome'); // Captura o botão de enviar o nome
+const campoNome = document.getElementById('nomeUsuario'); // Captura o campo de texto onde o usuário digita o nome
+const divMensagem = document.getElementById('mensagemBoasVindas'); // Captura a div que exibirá a mensagem de boas-vindas
+
+btnEnviarNome.addEventListener('click', function() { // Escuta o clique no botão de enviar o nome
+    const nome = campoNome.value.trim(); // Obtém o nome digitado removendo espaços extras
+    
+    if (nome !== "") { // Verifica se o campo não está vazio
+        divMensagem.innerHTML = `Olá <strong>${nome}</strong>, seja bem vindo, vamos aprender coisas novas.`; // Exibe a mensagem personalizada
+        divMensagem.style.color = ""; // Limpa qualquer estilo de erro anterior
+    } else {
+        divMensagem.innerHTML = "<span style='color: red;'>Por favor, digite um nome antes de enviar!</span>"; // Exibe mensagem de erro se estiver vazio
+    }
+});
+
 const avanca = document.querySelectorAll('.btn-proximo'); // Seleciona todos os botões com a classe '.btn-proximo'
 
 avanca.forEach(button => { // Cria uma estrutura de repetição para aplicar a função em cada botão

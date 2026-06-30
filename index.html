@@ -12,11 +12,21 @@
 <body>
  <button id="alternar-tema" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">Alternar Modo</button>
  <main>
+  
   <div class="passo ativo" id="passo-0">
    <h1>Benefícios do Agronegócio</h1>
-   <p><strong>Olá, seja bem-vindo!</strong> Neste site você verá alguns dos benefícios que o agronegócio traz para nós.</p>
+   
+   <div style="margin-bottom: 15px;">
+     <p style="margin-bottom: 5px;">Qual seu nome?</p>
+     <input type="text" id="nomeUsuario" placeholder="Digite seu nome aqui..." style="padding: 5px; font-size: 16px;">
+     <button id="btn-enviar-nome" style="padding: 5px 10px; font-size: 16px; cursor: pointer;">Enviar</button>
+   </div>
+
+   <div id="mensagemBoasVindas" style="margin-top: 15px; margin-bottom: 15px; min-height: 24px;"></div>
+   
    <button class="btn-proximo" data-proximo="1">CLIQUE AQUI PARA SABER!</button>
   </div>
+
   <div class="passo" id="passo-1">
    <h2>8 benefícios que o agro traz para nós</h2>
    <ol>
@@ -28,7 +38,7 @@
     </li>
     <li>
      <div class="alinhamento-lista">
-      <p><strong>Produção de alimentos:</strong> O agro é responsável por uma de nossas principais necessidades a alimentação é ele que disponibiliza os alimentos que fazem parte de nossa alimentação diária, como o arroz, feijão, frutas, carnes e muitos outros.</p>
+      <p><strong>Produção de alimentos:</strong> O agro é responsible por uma de nossas principais necessidades a alimentação é ele que disponibiliza os alimentos que fazem parte de nossa alimentação diária, como o arroz, feijão, frutas, carnes e muitos outros.</p>
       <img src="alimentos agro.png" alt="Diversos alimentos saudáveis produzidos pelo agronegócio">
      </div>
     </li>
